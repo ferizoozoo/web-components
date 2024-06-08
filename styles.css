@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 0 0.5rem;
+    background-color: #4747471c;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.logoImg {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid #4747472d;
+    box-shadow: 1px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.link {
+    text-decoration: none;
+    color: #474747;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        color: #242424;
+    }
+}
