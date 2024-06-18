@@ -1,0 +1,12 @@
+.card {
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px grey;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 1px;
+    justify-content: center;
+    align-content: center;
+    height: 10rem;
+    width: 20rem;
+}

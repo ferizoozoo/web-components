@@ -7,17 +7,24 @@
     <title>Document</title>
     <script src="components/header.ts" defer></script>
     <script src="components/footer.ts" defer></script>
+    <script src="components/card.ts" defer></script>
 </head>
 
 <body>
-    <custom-header 
-        text="Hello World!"
-        logoSrc=""
-    >
-    <a href="https://google.com" class="link">Google</a>
-    <a href="https://reddit.com" class="link">Reddit</a>
+    <custom-header text="Hello World!" logoSrc="">
+        <a href="https://google.com" class="link">Google</a>
+        <a href="https://reddit.com" class="link">Reddit</a>
     </custom-header>
-
+    <custom-card>
+        <div>
+            <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
+                style="height:4rem;width:4rem" />
+            <div>
+                <h4>card-header</h4>
+                <p>card-text</p>
+            </div>
+        </div>
+    </custom-card>
     <custom-footer text="Copyright belongs to ferizoozoo corporation 2024 &copy"></custom-footer>
 </body>
 
