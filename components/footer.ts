@@ -15,10 +15,13 @@ class Footer extends HTMLElement {
         const root = document.createElement('div');
         root.setAttribute('class', 'root');
 
+        // get attributes
+        const text = this.getAttribute('text');
+
         // footer text
         root.innerHTML = `
             <div class="footerText">
-                <p>Copyright &copy; 2020. All rights reserved.</p>
+                <p>${text}</p>
             </div>
         `;
 
