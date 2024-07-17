@@ -8,6 +8,7 @@
     <script src="components/header.ts" defer></script>
     <script src="components/footer.ts" defer></script>
     <script src="components/card.ts" defer></script>
+    <script src="components/card-item.ts" defer></script>
 </head>
 
 <body>
@@ -15,15 +16,18 @@
         <a href="https://google.com" class="link">Google</a>
         <a href="https://reddit.com" class="link">Reddit</a>
     </custom-header>
-    <custom-card>
-        <div>
+    <custom-card style="height: 200px;width: 200px">
+        <card-item>
             <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
                 style="height:4rem;width:4rem" />
+        </card-item>
+        
+        <card-item>
             <div>
                 <h4>card-header</h4>
                 <p>card-text</p>
             </div>
-        </div>
+        </card-item>
     </custom-card>
     <custom-footer text="Copyright belongs to ferizoozoo corporation 2024 &copy"></custom-footer>
 </body>
